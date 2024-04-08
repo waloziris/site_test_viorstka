@@ -1,0 +1,154 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 250px;
+
+}
+
+.header {
+    background: url(/img/bg.png) no-repeat center center;
+    background-size: cover;
+    min-height: 768px;
+    padding-top: 41px;
+    color: white;
+}
+
+.logo-white {
+    text-align: center;
+}
+
+.headr_title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 310px;
+}
+
+.header_text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.scrol {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+/* Media */
+@media screen and (max-width:768px) {
+    .container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .headr_title {
+        font-size: 46px;
+        padding-top: 250px;
+    }
+}
+
+.navbar {
+    height: 65px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-black {
+    padding: 25px 0;
+}
+
+.menu {
+    padding: 25px 0;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.menu a.is-active {
+    color: #00A4E5;
+}
+
+.menu a:hover {
+    color: #00A4E5;
+}
+
+/*Our story*/
+.our_story {}
+
+.story_title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.31px;
+    text-align: center;
+}
+
+.story_title::after {
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 0 auto;
+}
+
+.container_inner {
+    display: flex;
+}
+
+.story_left {}
+
+.story_text_1 {}
+
+.story_text_2 {}
+
+.story_right {}
+
+.story_item {}
